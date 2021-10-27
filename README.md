@@ -22,5 +22,14 @@ towebp *.png
 `towebp` will print errors to stderr if a file fails to parse or decode as an image,
 but will continue on with the rest of the files, like cat.
 
+There are two flags available for selecting quality and changing to the lossless
+encoder. You can only specify one at a time. Using the same imaginary files as before,
+you can encode the png losslessly with `-l` and the jpeg with a lossy quality of 75
+with `-q 75`. Like this:
+```
+towebp -l a.png
+towebp -q 75 some.jpg
+```
+
 ### License
 This program is licensed under Creative Commons Zero; It's in the public domain.

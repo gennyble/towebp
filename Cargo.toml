@@ -1,8 +1,8 @@
 [package]
 name = "towebp"
-version = "0.1.0"
+version = "0.2.0"
 description = "Convert images to webp"
-authors = ["Brad Alfirevic <brad@genbyte.dev>"]
+authors = ["Genevive <gen@nyble.dev>"]
 repository = "https://github.com/genbyte/towebp"
 readme = "README.md"
 keywords = ["cli", "image", "webp"]
@@ -15,4 +15,4 @@ edition = "2018"
 [dependencies]
 getopts = "0.2"
 image = "0.23"
-webp = "0.1"
+webp = "0.2"
