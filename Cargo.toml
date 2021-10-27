@@ -1,9 +1,9 @@
 [package]
 name = "towebp"
-version = "0.2.0"
+version = "0.2.1"
 description = "Convert images to webp"
 authors = ["Genevive <gen@nyble.dev>"]
-repository = "https://github.com/genbyte/towebp"
+repository = "https://github.com/gennyble/towebp"
 readme = "README.md"
 keywords = ["cli", "image", "webp"]
 categories = ["graphics", "command-line-utilities"]
