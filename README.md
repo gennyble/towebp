@@ -4,7 +4,7 @@ A simple command-line tool to convert common image formats to WebP.
 
 ### Installation
 ```
-cargo intall towebp
+cargo install towebp
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ towebp *.png
 ```
 
 `towebp` will print errors to stderr if a file fails to parse or decode as an image,
-but will continue on with the rest of the files, like cat.
+but will continue on with the rest of the files, like `cat`.
 
 There are two flags available for selecting quality and changing to the lossless
 encoder. You can only specify one at a time. Using the same imaginary files as before,
@@ -32,4 +32,4 @@ towebp -q 75 some.jpg
 ```
 
 ### License
-This program is licensed under Creative Commons Zero; It's in the public domain.
+This program is licensed under Creative Commons Zero; it's in the public domain.
