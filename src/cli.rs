@@ -14,14 +14,12 @@ pub struct CliArgs {
 
 impl CliArgs {
     pub fn new() -> Option<Self> {
-        let cli = Self::cli();
-
-        cli
+        Self::cli()
     }
 
     fn usage(program: &str, opts: Options) -> String {
         let brief = format!("Usage: {} [options] FILE...", program);
-        format!("{}", opts.usage(&brief))
+        opts.usage(&brief)
     }
 
     fn cli() -> Option<Self> {

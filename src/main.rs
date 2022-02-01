@@ -14,7 +14,7 @@ fn main() {
     };
 
     for (ipath, opath) in cli.files.iter() {
-        to_webp(&ipath, &opath, cli.quality);
+        to_webp(ipath, opath, cli.quality);
     }
 }
 
