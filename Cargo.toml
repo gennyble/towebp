@@ -13,6 +13,6 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-getopts = "0.2"
-image = "0.23"
-webp = "0.2"
+getopts = "0.2.21"
+image = "0.24.0"
+webp = "0.2.1"
